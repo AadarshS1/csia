@@ -13,8 +13,8 @@ public class sql {
 	          Connection con = null;
 	          try{
 	              Class.forName("com.mysql.jdbc.Driver");
-	              con = DriverManager.getConnection("jdbc:mysql://127.0.0.1/IA_1", "root", "pavithra15");
-	              String query = "insert into IA_1.teacher (LastName, FirstName, Subject) VALUES ('aada', 'samar', 'code');";
+	              con = DriverManager.getConnection("jdbc:mysql://127.0.0.1/addressbook", "root", "pavithra15");
+	              String query = "insert into addressbook.contact (name, nick_name, address) VALUES ('hello', 'hi', 'house');";
 	              
 	              PreparedStatement preparedStmt = con.prepareStatement(query);
 	              preparedStmt.execute();
