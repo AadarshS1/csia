@@ -1,0 +1,18 @@
+2020-03-03
+5:00pm - 9:00pm
+Duty Date     Bob
+
+2020-03-04
+3:00pm - 4:00pm
+Duty Date     kru
+5:00pm - 9:00pm
+Duty Date     Jeff
+
+2020-03-01
+3:00pm - 4:00pm
+Duty Date     kru
+
+2020-03-02
+3:00pm - 4:00pm
+Duty Date     bob
+

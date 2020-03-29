@@ -83,7 +83,7 @@ public class MainCalendarScene extends JFrame implements ChangeListener{
 		
 		///////////////////////////////////////////
 		//setting up calendar panel
-		 Button = new JButton("Create");
+		Button = new JButton("Create");
 		createButton.addActionListener(event->{
 			if(dialog==null){
 				dialog = new UserInputDialog(MainCalendarScene.this);
